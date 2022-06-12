@@ -1,0 +1,56 @@
+
+.ReportCard{
+    display: flex;    
+    flex: 1;
+    height: 7rem!important;
+    border-radius: 0.7rem;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.ReportDetail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.ReportDetail span:nth-child(2){
+    font-weight: bold;
+}
+
+.ReportCard:hover{
+    box-shadow: none;
+}
+
+/* radial bar */
+
+.radialBar{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.CircularProgressbar{
+    width: 4rem!important;
+    overflow: visible;
+}
+
+.CircularProgressbar-path{
+stroke: linear-gradient(180deg, #40e0d0 100%, #4d4df0 50%)!important;
+    stroke-width: 12px!important;
+    filter: drop-shadow(2px 4px 6px white);
+}
+
+.CircularProgressbar-trail{
+    display: none;
+}
+
+.CircularProgressbar-text{
+    fill: black!important;
+}

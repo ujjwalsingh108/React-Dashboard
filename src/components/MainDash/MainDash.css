@@ -1,0 +1,11 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    background: white;
+}
+
+.MainDash h1{
+    margin-top: 5vh;
+    margin-left: 4vw;
+}

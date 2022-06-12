@@ -1,0 +1,11 @@
+.Cards{
+    display: flex;
+}
+
+.parentContainer{
+    overflow: hidden;
+    float: left;
+    width: 30vw;
+    align-content: center;
+    padding:0 0 2vw 4vw ;
+}
